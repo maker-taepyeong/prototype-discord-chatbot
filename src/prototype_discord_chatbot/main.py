@@ -15,6 +15,8 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+    print("on_message============")
+    print(message)
     if message.author.bot:
         return  # 자기 자신/다른 봇은 무시
     print(message.content)
