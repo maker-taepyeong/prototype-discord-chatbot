@@ -9,6 +9,7 @@ dependencies = [
     "discord>=2.3.2",
     "python-dotenv>=1.1.1",
     "openai>=1.93.0",
+    "fastmcp>=2.10.4",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
